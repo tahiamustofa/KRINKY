@@ -55,9 +55,13 @@ display: block;
 .submenu li{
     position: relative;
 }
-.hero button{
+.hero button, .probtn{
     box-shadow:6px 6px 0 -1px #0f172a;
 } 
+.probtn:hover{
+    background:#0f172a ;
+    box-shadow:  6px 6px 0 -1px #ea580c;
+}
 .innerbtn a:nth-child(1){
 box-shadow:  6px 6px 0 -1px #0f172a;
 }
@@ -77,3 +81,32 @@ box-shadow:  6px 6px 0 -1px #0f172a;
     .scard:hover{
         box-shadow:  6px 6px 0 -1px #0f172a; 
     }
+    .contact{
+        background-image:url(../project-img/asset\ 21.png);
+    }
+    .inputfield input{
+        width: 100%;
+        padding:20px;
+        margin: 15px 0px;
+        border: black 1px solid;
+       }
+    .inputfield textarea{
+        width: 100%;
+        padding:20px;
+        resize: none;
+        border: black 1px solid;
+    }
+    .mform{
+        background-color: #fcfcfc;
+        padding: 25px;
+    }
+    .inputfield [type=submit]:hover {
+        background:#0f172a ;
+        box-shadow:  6px 6px 0 -1px #ea580c;
+        color: white;
+    }
+    .inputfield [type=submit] {
+        background-color: yellow;
+        box-shadow:6px 6px 0 -1px #0f172a;
+        
+}
