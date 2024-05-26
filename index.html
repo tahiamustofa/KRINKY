@@ -18,74 +18,134 @@
 </head>
 
 <body class="jost">
-    <header class="bg-[#FFF7ED]">
-        <div class="nav ">
+    <header class="bg-[#FFF7ED] py-5">
+        <div class="nav md:px-10 lg:px-2">
             <div class="max-w-screen-xl flex justify-between items-center mx-auto ">
                 <div class="logo">
                     <img src="assets/project-img/asset 0.svg" alt="">
                 </div>
                 <div class="menu">
-                    <ul class="mainmenu flex">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Skills</a>
-                            <ul class="dropmenu">
-                                <li><a href="">
-                                        Software
-                                    </a>
-                                    <ul class="submenu">
-                                        <li><a href="">Web</a>
-                                            <ul class="sub2">
-                                                <li>
-                                                    <a href="">
-                                                        Frontend
-                                                    </a>
+                    <div class="md:hidden hidden lg:contents">
+                        <ul class="mainmenu flex">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Skills</a>
+                                <ul class="dropmenu">
+                                    <li><a href="">
+                                            Software
+                                        </a>
+                                        <ul class="submenu">
+                                            <li><a href="">Web</a>
+                                                <ul class="sub2">
+                                                    <li>
+                                                        <a href="">
+                                                            Frontend
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            Backend
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="">IOS</a>
+                                                <ul class="sub2">
+                                                    <li>
+                                                        <a href="">
+                                                            Frontend
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            Backend
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="">
+                                            Hardware
+                                        </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Sevices</a></li>
+    
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <!-- drop -->
+                    <div class="dropdown lg:hidden">
+                        <div tabindex="0" role="button" class="btn m-1 px-7 bg-[#EA580C]">
+                            <i class="fa-solid fa-bars text-white"></i>
+                        </div>
+                        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-32 right-1">
+                            
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Skills</a>
+                                    <ul class="dropmenu">
+                                        <li><a href="">
+                                                Software
+                                            </a>
+                                            <ul class="submenu">
+                                                <li><a href="">Web</a>
+                                                    <ul class="sub2">
+                                                        <li>
+                                                            <a href="">
+                                                                Frontend
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">
+                                                                Backend
+                                                            </a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
-                                                <li>
-                                                    <a href="">
-                                                        Backend
-                                                    </a>
+                                                <li><a href="">IOS</a>
+                                                    <ul class="sub2">
+                                                        <li>
+                                                            <a href="">
+                                                                Frontend
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="">
+                                                                Backend
+                                                            </a>
+                                                        </li>
+                                                    </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li><a href="">IOS</a>
-                                            <ul class="sub2">
-                                                <li>
-                                                    <a href="">
-                                                        Frontend
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="">
-                                                        Backend
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="">
+                                                Hardware
+                                            </a></li>
                                     </ul>
                                 </li>
-                                <li><a href="">
-                                        Hardware
-                                    </a></li>
-                            </ul>
-                        </li>
-                        <li><a href="">Sevices</a></li>
+                                <li><a href="">Sevices</a></li>
+        
+                                <li><a href="">Portfolio</a></li>
+                                <li><a href="">Contact</a></li>
+                            
+                        </ul>
+                      </div>
 
-                        <li><a href="">Portfolio</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
-        <section class="max-w-screen-xl mx-auto flex items-center py-5 hero">
+        <section class="max-w-screen-xl mx-auto flex flex-col md:flex-col lg:flex-row md:items-center px-10 md:px-10 lg:px-0 md:mx-auto md:gap-10  gap-10 lg:gap-10 items-center md:py-10 py-8 lg:py-24  hero">
             <div class="flex-1 space-y-5">
                 <p class="text-lg">👋, MY NAME IS KRINKY</p>
-                <h2 class="font-bold text-7xl">I'm a Software Engineer</h2>
+                <h2 class="font-bold text-xl md:text-4xl lg:text-7xl">I'm a Software Engineer</h2>
                 <p>Based in Los Angeles, California.</p>
                 <button class="bg-[#EA580C] py-2 px-5 text-white font-bold uppercase">
                     <a href="">LET'S START</a>
                 </button>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 lg:pt-5 md:pt-20">
                 <img src="assets/project-img/asset 1.png" alt="" class="w-full">
             </div>
         </section>
@@ -101,11 +161,11 @@
             </div>
         </section>
         <section class="py-24">
-            <div class="alignment max-w-screen-xl mx-auto flex items-center gap-7">
+            <div class="alignment max-w-screen-xl mx-auto flex lg:flex-row md:flex-col items-center gap-7">
                 <div class="aboutimg flex-1">
                     <img src="assets/project-img/asset 9.png" alt="" class="w-full">
                 </div>
-                <div class="aboutcon space-y-5 flex-1">
+                <div class="aboutcon space-y-5 flex-1 md:px-8 md:py-4 lg:py-0">
                     <h1 class="font-extrabold text-4xl">I'm a Freelancer Front-end Developer with over 3 years of
                         experience.</h1>
                     <p class="text-xl">I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from
@@ -134,9 +194,9 @@
             <div class="sHead font-extrabold text-5xl pb-20">
                 <h1 class="text-center">MY SERVICES</h1>
             </div>
-            <div class="max-w-screen-xl mx-auto servicesCon flex flex-wrap gap-4 box-border justify-center">
+            <div class="max-w-screen-xl mx-auto servicesCon flex flex-wrap gap-4 box-border justify-center md:px-3">
                 <div class="scard box-border flex items-center gap-2 border-black border-2 p-5 bg-cyan-100">
-                    <div class="icon border-black border-2 bg-white w-[120px] flex justify-center py-4">
+                    <div class="icon border-black border-2 bg-white lg:w-[120px] md:w-5/6 flex justify-center py-4">
                         <i class="fa-solid fa-phone-volume text-4xl"></i>
                     </div>
                     <div class="stext">
@@ -146,7 +206,7 @@
                     </div>
                 </div>
                 <div class="scard  box-border flex items-center gap-2 border-black border-2 p-5 bg-red-300">
-                    <div class="icon border-black border-2 bg-white w-[120px] flex justify-center py-4">
+                    <div class="icon border-black border-2 bg-white lg:w-[120px] md:w-5/6 flex justify-center py-4">
 
                         <i class="fa-solid fa-laptop text-4xl"></i>
                     </div>
@@ -157,7 +217,7 @@
                     </div>
                 </div>
                 <div class="scard flex items-center gap-2 border-black border-2 p-5 bg-[#ea580c]">
-                    <div class="icon border-black border-2 bg-white w-[120px] flex justify-center py-4">
+                    <div class="icon border-black border-2 bg-white lg:w-[120px] md:w-5/6 flex justify-center py-4">
 
                         <i class="fa-solid fa-triangle-exclamation  text-4xl "></i>
                     </div>
@@ -168,7 +228,7 @@
                     </div>
                 </div>
                 <div class="scard flex items-center gap-2 border-black border-2 p-5 bg-cyan-400">
-                    <div class="icon border-black border-2 bg-white w-[120px] flex justify-center py-4">
+                    <div class="icon border-black border-2 bg-white  lg:w-[120px] md:w-5/6 flex justify-center py-4">
 
                         <i class="fa-solid fa-table-columns text-4xl"></i>
                     </div>
@@ -179,7 +239,7 @@
                     </div>
                 </div>
                 <div class="scard flex items-center gap-2 border-black border-2 p-5 bg-slate-400">
-                    <div class="icon border-black border-2 bg-white w-[120px] 
+                    <div class="icon border-black border-2 bg-white lg:w-[120px] md:w-5/6 
                                 flex justify-center py-4">
 
                         <i class="fa-solid fa-ruler-vertical  text-4xl"></i>
@@ -191,7 +251,7 @@
                     </div>
                 </div>
                 <div class="scard flex items-center gap-2 border-black border-2 p-5 bg-yellow-300">
-                    <div class="icon border-black border-2 bg-white w-[120px]
+                    <div class="icon border-black border-2 bg-white lg:w-[120px] md:w-5/6
                                      flex justify-center py-4">
 
                         <i class="fa-solid fa-globe  text-4xl"></i>
@@ -204,10 +264,10 @@
                 </div>
             </div>
         </section>
-        <section class="py-24 projects bg-[#FFF7ED]">
-            <h1 class="font-extrabold text-4xl text-center pb-24">LATEST PROJECTS</h1>
+        <section class=" lg:py-24 md:py-24 projects bg-[#FFF7ED]">
+            <h1 class="font-extrabold text-4xl text-center lg:pb-24 md:pb-12">LATEST PROJECTS</h1>
             <div class="max-w-screen-xl mx-auto grid gap-24">
-                <div class="project1 flex gap-6 items-center">
+                <div class="project1 flex gap-6 items-center px-5">
                     <div class="flex-1">
                         <img src="assets/project-img/asset 11.jpeg" alt="" class="w-full">
                     </div>
@@ -223,14 +283,7 @@
                                 PROJECT</a></button>
                     </div>
                 </div>
-
-
-
-
-
-
-
-                <div class="project1 flex gap-6 items-center">
+                <div class="project1 flex gap-6 items-center px-5">
 
 
                     <div class="p_text space-y-5 flex-1">
@@ -248,7 +301,7 @@
                     </div>
                 </div>
 
-                <div class="project1 flex gap-6 items-center">
+                <div class="project1 flex gap-6 items-center px-5">
                     <div class="flex-1">
                         <img src="assets/project-img/asset 13.jpeg" alt="" class="w-full">
                     </div>
@@ -267,7 +320,7 @@
                 </div>
 
 
-                <div class="project1 flex gap-6 items-center">
+                <div class="project1 flex gap-6 items-center px-5">
 
 
                     <div class="p_text space-y-5 flex-1">
@@ -286,10 +339,10 @@
                 </div>
             </div>
         </section>
-        <section class="contact py-24 projects bg-[#0F172A]">
-            <div class="max-w-screen-xl mx-auto grid gap-24">
-                <div class="flex gap-20">
-                    <div class="mform ">
+        <section class="contact lg:py-24 md:py-10  bg-[#0F172A]">
+            <div class="max-w-screen-xl mx-auto grid  gap-24">
+                <div class="flex lg:flex-row md:flex-col  md:items-center gap-20">
+                    <div class="mform px-4">
                         <form action="" class="flex-1 form-control">
                                 <h1 class="text-center font-extrabold text-2xl">Get in touch</h1>
                                 <p class="text-center text-xl mb-6"> Our friendly team would love to hear from you.</p>
