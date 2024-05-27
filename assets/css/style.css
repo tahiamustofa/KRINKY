@@ -74,10 +74,10 @@ box-shadow:  6px 6px 0 -1px #0f172a;
         background-position: center;
         background-size: cover;
     }
-    .serives .servicesCon .scard{
+    /* .serives .servicesCon .scard{
         width:calc(50% - 20px);
         box-sizing: border-box;
-    }
+    } */
     .scard:hover{
         box-shadow:  6px 6px 0 -1px #0f172a; 
     }
