@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    position: relative;
+}
 .jost{
     font-family: "Jost", sans-serif;
 }
@@ -110,3 +113,49 @@ box-shadow:  6px 6px 0 -1px #0f172a;
         box-shadow:6px 6px 0 -1px #0f172a;
         
 }
+
+
+.banner-one__shape-1 {
+    background-image: linear-gradient(40deg, #0db8ff 0%, #f332ff 100%);
+     box-shadow: 0px 20px 60px 0px rgba(141, 142, 255, 0.8);
+    width: 143px;
+    height: 143px;
+    top: 5%;
+    left: 3%;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+    -webkit-perspective: 150px;
+    perspective: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation:shape1 8s ease-out infinite;
+}
+@keyframes shape1{
+    0%   { 
+        top: 80px;
+        left: 100px;
+        rotate: 0deg;
+    }
+    25%  { 
+        top: 140px;
+        left: 160px;
+        rotate: 90deg;
+     }
+    50% {
+        top: 140px;
+        left: 300px;
+        rotate: 180deg;
+    }
+    75%  { 
+        top: 140px;
+        left: 160px;
+        rotate: 90deg;
+     }
+    100% {
+        top: 80px;
+        left: 100px; 
+        rotate: 0deg;
+     }
+  }
